@@ -42,7 +42,7 @@ From **resource optimization** to **microservices deployment** and **database in
 
 ---
 
-## ⚡ **Why DockStorm?**
+## ⚡ **Why DockerVerse?**
 
 🔹 **Mission:** To explore **containerized applications, cloud deployment, and DevOps automation** for real-world scalability.  
 🔹 **Methodology:** Hands-on, modular, production-ready **experiments** aimed at mastering **cloud-native technologies**.  
