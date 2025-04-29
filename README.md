@@ -6,7 +6,7 @@ From **resource optimization** to **microservices deployment** and **database in
 
 ---
 
-## 📦 **DockStorm Projects**
+## 📦 **DockerVerse Projects**
 
 ### 1️⃣ **Introduction to Docker 🐳**
 🔹 **Goal:** Start the journey by running the simplest container: "Hello World."  
