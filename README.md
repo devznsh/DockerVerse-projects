@@ -66,4 +66,4 @@ Whether it's **optimizing resource management, deploying microservices, or integ
 
 Stay tuned for more containerized innovations from **DockStorm!** ⚡🐳  
 
-_By Vansh Srivastava_ 🚀  
+_By Devansh Gaur_ 🚀  
