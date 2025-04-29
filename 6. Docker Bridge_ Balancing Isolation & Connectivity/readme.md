@@ -91,7 +91,7 @@ docker inspect -format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}
 ---
 
 ## ❌ 5. Testing Communication Between Different Networks
-Ping from `vansh-database` to `Devansh-server-B`:
+Ping from `Devansh-database` to `Devansh-server-B`:
 ```bash
 docker exec -it Devansh-database ping 172.17.0.2
 ```
@@ -105,8 +105,8 @@ docker exec -it Devansh-database ping 172.17.0.2
 docker network inspect vansh-bridge
 docker network inspect bridge
 ```
-✅ `vansh-bridge` should contain `vansh-database` & `vansh-server-A`.
-✅ `bridge` should contain `vansh-server-B`.
+✅ `Devansh-bridge` should contain `Devansh-database` & `Devansh-server-A`.
+✅ `bridge` should contain `Devansh-server-B`.
 
 ---
 
