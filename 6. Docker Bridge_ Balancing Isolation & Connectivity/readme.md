@@ -27,13 +27,13 @@ A **custom bridge network** offers several advantages:
 ✅ **DNS-Based Resolution** – Containers communicate via names instead of IPs.
 ✅ **Greater Control** – Define specific **subnets, IP ranges, and gateways**.
 
-To demonstrate, we create a **custom bridge network** called `vansh-bridge` and connect multiple containers.
+To demonstrate, we create a **custom bridge network** called `Devansh-bridge` and connect multiple containers.
 
 ---
 
 ## 🔧 1. Creating a Custom Bridge Network
 ```bash
-docker network create --driver bridge --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 vansh-bridge
+docker network create --driver bridge --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 Devansh-bridge
 ```
 ### 🔍 Explanation:
 - `--driver bridge` → Uses the default **bridge network mode**.
@@ -43,31 +43,31 @@ docker network create --driver bridge --subnet 172.20.0.0/16 --ip-range 172.20.2
 ---
 
 ## 🚀 2. Running Containers in the Custom Network
-### Running **Redis Container** (`vansh-database`)
+### Running **Redis Container** (`Devansh-database`)
 ```bash
-docker run -itd --net=vansh-bridge --name=vansh-database redis
+docker run -itd --net=Devansh-bridge --name=Devansh-database redis
 ```
-### Running **BusyBox Container** (`vansh-server-A`)
+### Running **BusyBox Container** (`Devansh-server-A`)
 ```bash
-docker run -itd --net=vansh-bridge --name=vansh-server-A busybox
+docker run -itd --net=Devansh-bridge --name=Devansh-server-A busybox
 ```
 
 ### 📌 Check Container IPs
 ```bash
-docker network inspect vansh-bridge
+docker network inspect Devansh-bridge
 ```
 Expected Output:
 ```
- vansh-database: 172.20.240.1
- vansh-server-A: 172.20.240.2
+ Devansh-database: 172.20.240.1
+ Devansh-server-A: 172.20.240.2
 ```
 
 ---
 
 ## 📔 3. Testing Communication Between Containers
-### Ping from **vansh-database** to **vansh-server-A**
+### Ping from **Devansh-database** to **Devansh-server-A**
 ```bash
-docker exec -it vansh-database ping 172.20.240.2
+docker exec -it Devansh-database ping 172.20.240.2
 ```
 ### Ping from **vidhi-server-A** to **vidhi-database**
 ```bash
