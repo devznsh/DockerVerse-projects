@@ -102,7 +102,7 @@ docker exec -it Devansh-database ping 172.17.0.2
 ## 🔍 6. Confirming Network Isolation
 ### Inspect Networks
 ```bash
-docker network inspect vansh-bridge
+docker network inspect Devansh-bridge
 docker network inspect bridge
 ```
 ✅ `Devansh-bridge` should contain `Devansh-database` & `Devansh-server-A`.
