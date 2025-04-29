@@ -1,6 +1,6 @@
-# 🐳 **DockStorm: Mastering Containers with Precision** ⚓🚀
+# 🐳 **DockerVerse: Mastering Containers with Precision** ⚓🚀
 
-Welcome to **DockStorm**! 🌊 This repository serves as my personal **containerized playground**, where I experiment with the capabilities of **Docker** to effortlessly build, deploy, and scale applications. Every project within **DockStorm** delves into different aspects of **containerization, networking, storage, and orchestration**, providing hands-on experience with **real-world DevOps** practices.
+Welcome to **DockerVerse**! 🌊 This repository serves as my personal **containerized playground**, where I experiment with the capabilities of **Docker** to effortlessly build, deploy, and scale applications. Every project within **DockerVerse** delves into different aspects of **containerization, networking, storage, and orchestration**, providing hands-on experience with **real-world DevOps** practices.
 
 From **resource optimization** to **microservices deployment** and **database integration**, each project here contributes to advancing my expertise in **cloud-native technologies**.
 
@@ -48,6 +48,6 @@ From **resource optimization** to **microservices deployment** and **database in
 🔹 **Methodology:** Hands-on, modular, production-ready **experiments** aimed at mastering **cloud-native technologies**.  
 🔹 **Future Plans:** Expanding into **advanced Kubernetes**, cloud CI/CD, and comprehensive DevOps automation! ☁️
 
-Stay tuned for more groundbreaking container innovations from **DockStorm**! ⚡🐳
+Stay tuned for more groundbreaking container innovations from **DockerVerse**! ⚡🐳
 
 _Authored by Devansh Gaur_ 🚀
