@@ -71,29 +71,29 @@ docker exec -it Devansh-database ping 172.20.240.2
 ```
 ### Ping from **vidhi-server-A** to **vidhi-database**
 ```bash
-docker exec -it vansh-server-A ping 172.20.240.1
+docker exec -it Devansh-server-A ping 172.20.240.1
 ```
 ✅ Expected Outcome: Both containers should successfully **ping** each other.
 
 ---
 
 ## 🚧 4. Demonstrating Network Isolation with a Third Container
-We add another container (`vansh-server-B`) on the **default bridge network**.
+We add another container (`Devansh-server-B`) on the **default bridge network**.
 ```bash
-docker run -itd --name=vansh-server-B busybox
+docker run -itd --name=Devansh-server-B busybox
 ```
 ### 📌 Get IP of `vansh-server-B`
 ```bash
-docker inspect -format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' vansh-server-B
+docker inspect -format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' Devansh-server-B
 ```
 (Example IP: `172.17.0.2`)
 
 ---
 
 ## ❌ 5. Testing Communication Between Different Networks
-Ping from `vansh-database` to `vansh-server-B`:
+Ping from `vansh-database` to `Devansh-server-B`:
 ```bash
-docker exec -it vansh-database ping 172.17.0.2
+docker exec -it Devansh-database ping 172.17.0.2
 ```
 🚨 **Expected Outcome:** The ping should **fail**, as they are on different networks.
 
