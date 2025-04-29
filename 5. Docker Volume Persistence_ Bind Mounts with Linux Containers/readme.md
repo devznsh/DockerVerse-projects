@@ -23,7 +23,7 @@ docker run -dit --name alpine_with_bind_mount -v C:\Users\Devansh\docker_data:/d
 ### 📄 Step 2: Creating a File Inside the Bind Mount
 Inside the container, you created a file:
 ```sh
-docker exec -it alpine_with_bind_mount sh -c "echo 'Hello, Vansh!' > /data/testfile.txt"
+docker exec -it alpine_with_bind_mount sh -c "echo 'Hello, Devansh!' > /data/testfile.txt"
 ```
 #### 🔍 What Happened?
 - The command executed a shell inside the running container.
