@@ -109,7 +109,6 @@ You should see the list of passengers displayed in the app.
 
 ## 🎯 Summary
 ✅ PostgreSQL container stores passenger data.  
-✅ Streamlit container fetches and displays data from PostgreSQL.  
 ✅ Both containers communicate over **my_postgres_network**.  
 ✅ Application accessible at **http://localhost:8501**.  
 
