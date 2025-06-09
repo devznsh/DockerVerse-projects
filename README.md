@@ -46,7 +46,7 @@ From **resource optimization** to **microservices deployment** and **database in
 
 🔹 **Mission:** To explore **containerized applications, cloud deployment, and DevOps automation** for real-world scalability.  
 🔹 **Methodology:** Hands-on, modular, production-ready **experiments** aimed at mastering **cloud-native technologies**.  
-🔹 **Future Plans:** Expanding into **advanced Kubernetes**, cloud CI/CD, and comprehensive DevOps automation! ☁️
+🔹 **Future Plans:** Expanding into **Kubernetes**, cloud CI/CD, and comprehensive DevOps automation! ☁️
 
 Stay tuned for more groundbreaking container innovations from **DockerVerse**! ⚡🐳
 
